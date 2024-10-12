@@ -7,7 +7,7 @@ import BoardTab from "./BoardTab.jsx";
 import useApp from "../../hooks/useApp";
 import useStore from "../../store";
 import { DragDropContext } from "react-beautiful-dnd";
-import AppLoader from "../../components/layout/AppLoader";
+import AppLoader from "../../components/layout/AppLoader.jsx";
 import ShiftTaskModal from "./ShiftTaskModal.jsx";
 
 export const statusMap = {

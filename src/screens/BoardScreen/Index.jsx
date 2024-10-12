@@ -1,7 +1,7 @@
 import { useCallback, useState } from "react";
 import { useMemo, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import AppLoader from "../../components/layout/AppLoader";
+import AppLoader from "../../components/layout/AppLoader.jsx";
 import useApp from "../../hooks/useApp";
 import useStore from "../../store";
 import BoardInterface from "./BoardInterface.jsx";
