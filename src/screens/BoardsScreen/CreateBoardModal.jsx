@@ -9,7 +9,7 @@ import {
 } from "@mui/material";
 import ModalHeader from "../../components/layout/ModalHeader";
 import { colors } from "../../theme";
-import useApp from "../../hooks/UseApp";
+import useApp from "../../hooks/useApp";
 import useStore from "../../store";
 
 const CreateBoardModal = ({ closeModal }) => {
