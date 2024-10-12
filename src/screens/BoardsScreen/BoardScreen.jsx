@@ -1,12 +1,12 @@
 import { Grid, Stack } from "@mui/material";
 import { useState, useEffect } from "react";
-import AppLoader from "../../components/layout/AppLoader";
 import useApp from "../../hooks/UseApp";
 import useStore from "../../store";
 import BoardCard from "./BoardCard";
 import CreateBoardModal from "./CreateBoardModal";
 import Topbar from "./Topbar";
 import NoBoards from "./NoBoards";
+import AppLoader from "../../components/layout/appLoader";
 
 const BoardsScreen = () => {
   const [loading, setLoading] = useState(true);
