@@ -4,7 +4,7 @@ import { Grid } from "@mui/material";
 import AddTaskModal from "./AddTaskModal";
 
 import BoardTab from "./BoardTab.jsx";
-import useApp from "../../hooks/useApp";
+import useApp from "../../hooks/UseApp.jsx";
 import useStore from "../../store";
 import { DragDropContext } from "react-beautiful-dnd";
 import AppLoader from "../../components/layout/AppLoader.jsx";

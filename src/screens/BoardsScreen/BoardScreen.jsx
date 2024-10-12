@@ -1,7 +1,7 @@
 import { Grid, Stack } from "@mui/material";
 import { useState, useEffect } from "react";
 import AppLoader from "../../components/layout/AppLoader";
-import useApp from "../../hooks/useApp";
+import useApp from "../../hooks/UseApp";
 import useStore from "../../store";
 import BoardCard from "./BoardCard";
 import CreateBoardModal from "./CreateBoardModal";

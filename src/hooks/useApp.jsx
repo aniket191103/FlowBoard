@@ -92,7 +92,7 @@ const useApp = () => {
       const boards = querySnapshot.docs.map((doc) => ({
         ...doc.data(),
         id: doc.id,
-        createdAt: doc.data().createdAt.toDate().toLocaleString("en-US"),
+        createdAt: doc.data().createdAt.toDate().toLocaleString("en-US"), 
       }));
 
       setBoards(boards);
