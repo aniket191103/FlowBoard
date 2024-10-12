@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { auth } from "./firebase";
 import { onAuthStateChanged } from "firebase/auth";
 import useStore from "./store";
-import AppLoader from "./components/layout/AppLoader.jsx";
+import AppLoader from "./components/layout/appLoader.jsx";
 
 // screens
 import AuthScreen from "./screens/AuthScreen/AuthScreen";
